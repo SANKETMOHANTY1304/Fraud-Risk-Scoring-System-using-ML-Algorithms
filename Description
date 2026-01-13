@@ -1,0 +1,24 @@
+This project implements an end-to-end fraud detection and risk scoring system using machine learning on highly imbalanced credit card transaction data (0.17% fraud rate). The system focuses on business cost optimization instead of accuracy and simulates a real-world banking risk decision engine.
+
+KEY FEATURES:
+Business-driven EDA and data validation
+Cost-sensitive learning for extreme class imbalance
+Logistic Regression vs Random Forest comparison
+Evaluation using PR-AUC and business cost
+Threshold optimization to minimize financial loss
+Risk score generation (0–100)
+Rule-based decision engine:
+Auto Approve
+Manual Review
+Block / Investigate
+
+RESULTS:
+Final model: Random Forest
+PR-AUC ≈ 0.74
+Reduced expected financial loss by ~80%+ compared to no-detection baseline
+Optimized decision threshold = 0.15
+
+TECH STACK:
+Python, Pandas, NumPy
+Scikit-learn
+Matplotlib
